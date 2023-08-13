@@ -1,0 +1,89 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+
+//GLOBAL_STYLES
+$Primary:#EE2D64;
+
+body{
+    margin-right: 0;
+}
+
+//SIGNUP
+.signup-page{
+    position: relative;
+    input::placeholder{
+        color: gray;
+    }
+    //SVG
+    img{
+       position: absolute;
+       top: 150px;
+       left: 150px; 
+    }
+    //FORM
+    .signup-form{
+        position: absolute;
+        top: 250px;
+        right: 150px;
+    }
+    //SIGNUP_BUTTON
+    .btn{
+        background-color: #EE2D64;
+        color: white;
+    }
+    .btn:hover{
+        background-color: #ea4977;
+    }
+    //LINK
+    p{
+        font-size: 15px;
+        color: grey;
+        margin-top: 10px;
+        a{
+            color: gray;
+        }
+    }
+}
+//LOGIN
+.login-page{
+    position: relative;
+    //SVG
+    img{
+        position: absolute;
+        top: 150px;
+        left: 150px; 
+    }
+    input::placeholder{
+        color: gray;
+    }
+    //BUTTON
+    .btn{
+        background-color: $Primary;
+        color: white;
+    }
+    .btn:hover{
+        background-color: #ea4977;
+    }
+    //FORM
+    .login-form{
+        position: absolute;
+        top: 250px;
+        right: 150px;
+    }
+    a{
+        color: gray;
+        text-decoration: none;
+    }
+    span{
+        color: gray;
+    }
+}
+
+//PROFILE_PAGE
+.profile-page{
+    .prof{
+        margin-top: 200px;
+        margin-left: 600px;
+    }
+}
+
+
